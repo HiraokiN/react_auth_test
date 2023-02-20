@@ -1,9 +1,12 @@
-
+import ResponsiveAppBar  from "../components/appbar"
 function HomePage() {
   return (
-    <div>
-      Home Page
-    </div>
+    <>
+      <ResponsiveAppBar />
+      <div>
+        Home Page
+      </div>
+    </>
   );
 }
 
